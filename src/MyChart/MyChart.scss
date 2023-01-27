@@ -1,0 +1,39 @@
+.mychart {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+
+	@media (min-width: 1200px) {
+        span {
+            font-size: 18px;
+            font-weight: 600;
+        }
+		.chart-box {
+			margin-top: 30px;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			canvas {
+				cursor: pointer;
+				width: 350px;
+			}
+		}
+	}
+
+	@media (max-width: 1200px) {
+        span {
+            font-size: 12px;
+            font-weight: 600;
+        }
+		.chart-box {
+			margin-top: 30px;
+			width: 100%;
+			margin: 0 auto;
+			canvas {
+				cursor: pointer;
+				width: 350px;
+				margin: 0 auto;
+			}
+		}
+	}
+}
