@@ -1,0 +1,3 @@
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+    display: none;
+}
